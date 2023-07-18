@@ -1,0 +1,19 @@
+# environment config
+.env
+.*.env
+.env.*
+# terraform/terragrunt cache files
+.*.sw?
+terragrunt.iml
+vendor
+.terraform
+.vscode
+*.tfstate
+*.tfstate.backup
+*.out
+.terragrunt-cache
+.terraform.lock.hcl
+terragrunt
+.DS_Store
+*/.DS_Store
+scripts/cassandraconnection.sh
